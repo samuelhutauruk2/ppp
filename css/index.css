@@ -1,0 +1,131 @@
+html .list-group .active {
+  background-color: #FFD166 !important;
+  border-color: #FFD166 !important;
+}
+
+header .font-size-sm {
+    font-size: 0.8rem !important;
+}
+
+header #main-navbar.mt-1 {
+    margin-top: 35px !important;
+}
+
+/*-- NAVBAR --*/
+#main-navbar a{
+    border-bottom: 5px solid #f8f9fa;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  #main-navbar a:hover, #main-navbar .active{
+    border-bottom-color: black;
+    transition: border-color 500ms;
+  }
+  
+  
+  /*-- SHOWCASE --*/
+  #showcase{
+    background: url('../img/showcase_bg.jpg');
+    height: 600px;
+    padding-top: 150px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  #showcase h1{
+    padding-top: 250px;
+  }
+  
+  .dark-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+  }
+
+  /* ======================================= */
+
+header .navbar.nav-1 {
+  background-color: #02275D !important;
+  padding: 9px;
+  font-size: 0.8rem;
+}
+
+header .navbar.nav-1 .nav-address {
+  float: left;
+}
+
+header .navbar.nav-1 .nav-lang {
+  float: right;
+}
+
+header nav.navbar {
+  padding: 6px 12px;
+}
+
+header nav.navbar a {
+  padding-top: 3.75px;
+  padding-bottom: 3.75px;
+}
+
+header nav.navbar img {
+  width: 300px;
+}
+
+main .carousel-item .carousel-caption {
+  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#newsletter {
+  background-color: #E72138 !important;
+}
+
+/* footer */
+footer .top-footer {
+  background-color: #E72138 !important;
+}
+footer .bottom_footer {
+  background-color: #b60318 !important;
+}
+a.link_top_footer {
+color: #fff;
+display: inline-block;
+padding: 18px;
+margin-right: 9px;
+margin-left: 3px;
+font-size: 14px;
+}
+a.link_top_footer:hover {
+background-color: #555;
+}
+
+footer .top-footer .top-link-footer a:hover{
+color:#ffcb05;
+background:#b60318;
+text-decoration:none;
+}
+footer .top-footer .top-link-footer a{
+color:#fff;
+display:inline-block;
+padding:18px;
+margin-right:9px;
+margin-left:3px;
+font-size:13px;
+}
+footer .top-footer .top-link-footer{
+text-align:center;
+color:#fff;
+}
+.modal-footer{
+  border-radius:0px;
+  padding:0.5rem 1rem;
+  background-color:rgb(247, 247, 247);
+}
